@@ -30,3 +30,7 @@ const inspirationalPoster = {
 furniture.push(diningTable)
 electronics.push(aromatherapyMachine)
 artwork.push(inspirationalPoster)
+
+//Store database back to local storage
+const homeInventoryString = JSON.stringify(HomeInventory)
+localStorage.setItem("homeInventory", homeInventoryString)
