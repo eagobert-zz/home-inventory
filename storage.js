@@ -104,12 +104,4 @@ let HomeInventory = {
 const homeInventoryString = JSON.stringify(HomeInventory)
 localStorage.setItem("homeInventory", homeInventoryString)
 
-//Use JSON.parse to Read the Data
-
-const storedInventory = localStorage.getItem("homeInventory")
-
-let homeInventory = JSON.parse(storedInventory)
-
-
-//Still working on 2nd JavaScript file called additional-storage.js
 
